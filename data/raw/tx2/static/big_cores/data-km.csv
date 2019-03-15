@@ -1,0 +1,3 @@
+#Procs;Cores;Freq;Time[s];Energy[Wh];Energy[J];AvgPower[W];
+1;1;2.04GHz;68.24;0.0014;5.04;7.19850746269;
+1;2;2.04GHz;42.95;0.001;3.6;8.44285714286;

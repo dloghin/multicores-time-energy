@@ -1,0 +1,5 @@
+#Cores;Measured Speedup;Predicted Speedup;Measured Energy Savings;Predicted Energy Savings;Measured Time;Predicted Time;Measured Energy;Predicted Energy
+1;1.00;1.00;0.000;0.000;661.8;661.8;1732.8;1301.6
+2;1.77;1.64;0.316;0.336;373.6;404.5;1185.9;889.9
+3;2.25;2.08;0.405;0.448;293.5;318.7;1031.0;752.7
+4;2.24;2.40;0.393;0.504;295.7;275.8;1051.9;684.1
