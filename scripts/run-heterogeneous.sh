@@ -30,7 +30,7 @@ for SYS in $SYSTEMS; do
     FILE_BIG_ONLY=$DATA_DIR/raw/$SYS/static/big_cores/data-$APP.csv
     FILE_STATIC_ALL=$DATA_DIR/raw/$SYS/static/all_cores/data-$APP.csv
     FILE_DYNAMIC_ALL=$DATA_DIR/raw/$SYS/dynamic/all_cores/data-$APP.csv
-    python $SCRIPTS_DIR/model_heterogeneous.py $N $NL $NB $APFL $APFB $PSYS $APP $FILE_LITTLE_ONLY $FILE_BIG_ONLY $FILE_STATIC_ALL $FILE_DYNAMIC_ALL
+    python3 $SCRIPTS_DIR/model_heterogeneous.py $N $NL $NB $APFL $APFB $PSYS $APP $FILE_LITTLE_ONLY $FILE_BIG_ONLY $FILE_STATIC_ALL $FILE_DYNAMIC_ALL
   done
   cd ..
 done

@@ -28,7 +28,7 @@ for SYS in $SYSTEMS; do
     if ! [ -f "$FILE" ]; then
       continue
     fi
-    python $SCRIPTS_DIR/model_homogeneous.py $N $APF $PSYS $APP $FILE
+    python3 $SCRIPTS_DIR/model_homogeneous.py $N $APF $PSYS $APP $FILE
   done
   cd ..
 done

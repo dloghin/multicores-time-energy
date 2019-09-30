@@ -256,7 +256,7 @@ def save_to_csv(filename, n, measured_speedups, predicted_speedups, measured_es,
         outfile.close()
 
 def save_stats_to_csv(filename, prg, stats):
-    size = len(stats) / 3
+    size = int(len(stats) / 3)
     with open(filename, 'at') as outfile:
         data = [prg]
         for j in range(size):
@@ -270,7 +270,7 @@ def save_stats_to_csv(filename, prg, stats):
 
 ''' Get the sequential time (T(1)) from file'''
 def get_t_seq(filename):
-    with open(filename, 'rb') as csvfile:
+    with open(filename, 'rt') as csvfile:
         csvreader = csv.reader(csvfile, delimiter=';')
         for row in csvreader:
             if (row[0].startswith('#')):
@@ -283,7 +283,7 @@ def get_data(filename):
     energies = []
     measured_speedups = []
     measured_energy_savings = []
-    with open(filename, 'rb') as csvfile:
+    with open(filename, 'rt') as csvfile:
         csvreader = csv.reader(csvfile, delimiter=';')
         for row in csvreader:
             if (row[0].startswith('#')):
