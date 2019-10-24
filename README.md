@@ -68,9 +68,9 @@ We provide a set of parameters for the XU3 and TX2 heterogeneous systems [1, 2, 
 
 * [1] D. Loghin and Y.M. Teo, *"The Energy Efficiency of Modern Multicore Systems"*, in Proc. of the 47th International Conference on Parallel Processing Companion [https://doi.org/10.1145/3229710.3229714](https://doi.org/10.1145/3229710.3229714)
 
-* [2] D. Loghin and Y.M. Teo, *"The Time and Energy Efficiency of Modern Multicore Systems"*, in PARCO [https://doi.org/10.1016/j.parco.2019.04.009](https://doi.org/10.1016/j.parco.2019.04.009)
+* [2] D. Loghin and Y.M. Teo, *"The Time and Energy Efficiency of Modern Multicore Systems"*, in "PARCO" [https://doi.org/10.1016/j.parco.2019.04.009](https://doi.org/10.1016/j.parco.2019.04.009)
 
-* [3] D. Loghin and Y.M. Teo, *"Time-energy Measurements of Shared-memory Applications on Modern Multicore Systems"*, (see [Data-in-Brief article](article.pdf)).
+* [3] D. Loghin and Y.M. Teo, *"Time-energy Measured Data on Modern Multicore Systems Running Shared-memory Applications"*, in "Data in Brief" [https://doi.org/10.1016/j.dib.2019.104670](https://doi.org/10.1016/j.dib.2019.104670)).
 
 ## License
 
